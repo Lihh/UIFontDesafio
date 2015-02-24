@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *inserirNome;
+@property (weak, nonatomic) IBOutlet UILabel *nomeInserido;
+
+- (IBAction)botaoAlterar:(id)sender;
+
+- (IBAction)mudarFonte:(id)sender;
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
 

@@ -64,6 +64,9 @@
                                         <include reference="x3l-Mr-FpX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="mudarFonte:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OtU-jj-VK0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-lB-hOY">
                                 <rect key="frame" x="68" y="463" width="109" height="30"/>
@@ -97,6 +100,9 @@
                                         <include reference="uef-zC-fr7"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="mudarFonte:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ykl-fI-A1l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8x-Ey-yAJ">
                                 <rect key="frame" x="68" y="285.5" width="64" height="30"/>
@@ -120,6 +126,9 @@
                                         <include reference="gsN-WZ-SNK"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="mudarFonte:" destination="BYZ-38-t0r" eventType="touchUpInside" id="94h-Uh-DzE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIp-cW-wMi">
                                 <rect key="frame" x="228" y="66" width="91" height="30"/>
@@ -149,6 +158,9 @@
                                         <include reference="hzn-7i-zcD"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="botaoAlterar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNL-HV-6NS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gp-L1-eKK">
                                 <rect key="frame" x="35" y="113" width="46" height="21"/>
@@ -231,6 +243,9 @@
                                         <include reference="z93-rc-Gov"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="mudarFonte:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkm-4d-XhI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brincando com Fontes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6J-GD-sBa">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -476,6 +491,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="inserirNome" destination="Jem-Kr-XGc" id="USz-MS-KpE"/>
+                        <outlet property="nomeInserido" destination="rzA-OR-plT" id="I1o-Kd-dr6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
